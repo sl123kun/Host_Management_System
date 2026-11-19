@@ -1,0 +1,32 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Django/runtime data
+db.sqlite3
+db.sqlite3-journal
+*.log
+celerybeat-schedule*
+media/
+staticfiles/
+
+# Python tooling
+.python-version
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

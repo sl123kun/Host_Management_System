@@ -1,0 +1,7 @@
+Django==5.2.19
+djangorestframework==3.18.3
+celery==5.7.0
+paramiko==5.1.0
+cryptography==50.0.2
+python-dotenv
+PyMySQL
